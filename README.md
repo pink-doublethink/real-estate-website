@@ -1,82 +1,56 @@
-# Vite + React + TypeScript + Airbnb + Husky = 🔥
+----
+### Real Estate Website 
+----
 
-A modern minimal Vite + React + TypeScript template with pre-configured ESLint (with Airbnb JS/React rules), Prettier and Git hooks powered by Husky out of the box 📦
+- This is an open source project for a real estate website for the city of Yaroslavl. The website is built using React technology, TypeScript, and Vite builder.
 
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
-![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
+### Getting Started
 
-![Screenshot](https://i.ibb.co/Trm88qJ/screenshot.png)
+To get started with this project, you will need to have Node.js and npm installed on your system. You can download and install Node.js from the official website here.
 
-## Features
+### Installation
 
-- 🦾 Up to date libraries version and their features
-- 🔎 Pre-configured and extensible ESLint configuration without wrong and unused rules designed for old React versions
-- 💅 Pre-configured and extensible Prettier configuration
-- 🔬 Git hooks for code formatting and linting pre-commit
+To install the project, follow the steps below: 
 
-## Usage
-
+1. Clone the repository to your local machine:
 ```bash
-npx degit alessandropisu/vite-react-ts-minimal-template my-app
-
-cd my-app
-
-# Required if you want a repository and work with Git hooks
-git init
-
-yarn install
-
-yarn dev
+  git clone https://github.com/<your-github-username>/real-estate-website.git
 ```
 
-## Available commands
+2. Navigate to the project directory:
+```bash
+  cd real-estate-website
+```
 
-Run in development mode
+3. Install the dependencies:
+```bash
+  yarn install
+```
 
+### Usage
+
+- Run in development mode
 ```bash
   yarn dev
 ```
 
-Create production build
-
+- Create production build
 ```bash
   yarn build
 ```
 
-Run ESLint linting
-
+- Run ESLint linting
 ```bash
   yarn lint
 ```
 
-Run Prettier formatting
-
+- Run Prettier formatting
 ```bash
   yarn format
 ```
 
-Run TypeScript compiling
+### Contributing
 
-```bash
-  yarn compile
-```
+Contributions to this project are welcome. If you find a bug or have a feature request, please open an issue on the project's GitHub page. If you would like to contribute code, please fork the repository and create a pull request with your changes.
 
-Serve production build locally
-
-```bash
-  yarn preview
-```
-
-## Resources
-
-- [Vite](https://github.com/vitejs/vite)
-- [Airbnb JS Style Guide](https://github.com/airbnb/javascript)
-- [Airbnb React Style Guide](https://github.com/airbnb/javascript/tree/master/react)
-- [Husky](https://github.com/typicode/husky)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.

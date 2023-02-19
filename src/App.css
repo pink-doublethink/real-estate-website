@@ -1,0 +1,229 @@
+.wrapper {
+  -js-display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100%;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.main {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 130%;
+  color: #fff;
+  padding: 18px 24px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.btn--blue {
+  background: var(--cyan);
+}
+.btn--orange {
+  background: var(--orange);
+}
+.btn-no-bg {
+  -js-display: inline-flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 16px 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: var(--black);
+}
+.btn-no-bg span {
+  display: inline-block;
+  font-size: 11px;
+  padding-left: 8px;
+  text-decoration: underline;
+  -webkit-transition: color 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
+}
+.btn-no-bg--blue {
+  border: 1px solid #00a0dc;
+  color: var(--cyan);
+}
+.btn-no-bg--blue span {
+  color: var(--black);
+}
+@media (any-hover: hover) {
+  .btn--blue:hover {
+    background: var(--orange);
+  }
+  .btn--orange:hover {
+    background: var(--cyan);
+  }
+  .btn-no-bg--blue:hover {
+    background: var(--cyan);
+    color: #fff;
+  }
+  .btn-no-bg--blue:hover span {
+    color: #fff;
+  }
+}
+.btn-no-bg--orange {
+  border: 1px solid #f26657;
+  color: var(--orange);
+}
+.btn-no-bg--orange span {
+  color: var(--black);
+}
+.btn-no-bg--white {
+  font-size: 11px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+@media (any-hover: hover) {
+  .btn-no-bg--orange:hover {
+    background: var(--orange);
+    color: #fff;
+  }
+  .btn-no-bg--orange:hover span {
+    color: #fff;
+  }
+  .btn-no-bg--white:hover {
+    border: 1px solid var(--orange);
+    background: var(--orange);
+  }
+}
+.title {
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 130%;
+  color: #fff;
+  word-break: break-word;
+}
+.heading,
+.subtitle {
+  font-weight: 300;
+  color: var(--black);
+  line-height: 130%;
+}
+@media (max-width: 992px) {
+  .title {
+    font-size: 60px;
+  }
+}
+@media (max-width: 767px) {
+  .title {
+    font-size: 46px;
+  }
+}
+@media (max-width: 500px) {
+  .title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 425px) {
+  .title {
+    font-size: 32px;
+  }
+}
+.subtitle {
+  font-size: 54px;
+}
+@media (max-width: 992px) {
+  .subtitle {
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .subtitle {
+    font-size: 36px;
+  }
+}
+@media (max-width: 425px) {
+  .subtitle {
+    font-size: 28px;
+  }
+}
+.heading {
+  font-size: 34px;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .heading {
+    font-size: 26px;
+  }
+}
+@media (max-width: 425px) {
+  .heading {
+    font-size: 22px;
+  }
+}
+.caption {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  margin-bottom: 18px;
+}
+.header__phone,
+.menu__link,
+.text {
+  font-weight: 400;
+  color: var(--black);
+}
+.text {
+  font-size: 16px;
+  line-height: 180%;
+}
+.text p:not(:last-child) {
+  margin-bottom: 16px;
+}
+@-webkit-keyframes spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.spinner:before {
+  content: '';
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  border-top-color: var(--cyan);
+  border-right-color: #fff;
+  border-bottom-color: var(--orange);
+  -webkit-animation: spinner 1s linear infinite;
+  animation: spinner 1s linear infinite;
+}
