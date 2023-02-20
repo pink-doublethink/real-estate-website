@@ -1,0 +1,123 @@
+.short {
+    position: relative;
+  }
+  @media (max-width: 1024px) {
+    .short {
+      padding: 50px 0;
+    }
+  }
+  @media (max-width: 992px) {
+    .short {
+      background: url(../images/watermark.svg) 50% 70% / contain no-repeat;
+    }
+  }
+  @media (max-width: 500px) {
+    .footer__row {
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+    }
+    .short {
+      padding: 30px 0;
+    }
+  }
+  .short__top {
+    margin-bottom: 150px;
+  }
+  @media (max-width: 1200px) {
+    .short__top {
+      margin-bottom: 60px;
+    }
+  }
+  @media (max-width: 767px) {
+    .short__top {
+      margin-bottom: 30px;
+    }
+  }
+  .short__subtitle {
+    margin-bottom: 26px;
+  }
+  .short__text {
+    font-weight: 500;
+    max-width: 670px;
+  }
+  .short__bottom {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+  @media (max-width: 1200px) {
+    .short__bottom {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+  .short__info {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+  .short__descripton {
+    padding-bottom: 40px;
+    margin-bottom: 12px;
+    position: relative;
+  }
+  .short__descripton:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: var(--cyan);
+    width: 80px;
+  }
+  .short__descripton p:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .short__name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+  }
+  .short__position {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 180%;
+  }
+  .short__watermark {
+    width: 1336px;
+    position: absolute;
+    z-index: -1;
+    left: 10.5%;
+    top: 30%;
+    pointer-events: none;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+  }
+  .objects__image,
+  .objects__swiper-wrap {
+    position: relative;
+  }
+  .short__watermark img {
+    max-width: 100%;
+  }
+  @media (max-width: 1600px) {
+    .short__watermark {
+      width: 1000px;
+      top: 20%;
+    }
+  }
+  @media (max-width: 1365px) {
+    .short__watermark {
+      width: 800px;
+      top: 30%;
+    }
+  }
+  @media (max-width: 992px) {
+    .short__watermark {
+      display: none;
+    }
+  }
