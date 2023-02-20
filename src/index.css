@@ -1,3 +1,43 @@
+@font-face {
+  font-family: 'Red Hat Text';
+  src: local('Red Hat Text Bold'), local('RedHatText-Bold'),
+      url('./assets/fonts/RedHatText-Bold.woff2') format('woff2'),
+      url('./assets/fonts/RedHatText-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Red Hat Text';
+  src: local('Red Hat Text Light'), local('RedHatText-Light'),
+      url('./assets/fonts/RedHatText-Light.woff2') format('woff2'),
+      url('./assets/fonts/RedHatText-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Red Hat Text';
+  src: local('Red Hat Text Medium'), local('RedHatText-Medium'),
+      url('./assets/fonts/RedHatText-Medium.woff2') format('woff2'),
+      url('./assets/fonts/RedHatText-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Red Hat Text';
+  src: local('Red Hat Text Regular'), local('RedHatText-Regular'),
+      url('./assets/fonts/RedHatText-Regular.woff2') format('woff2'),
+      url('./assets/fonts/RedHatText-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
 button,
 hr,
 input {
@@ -175,6 +215,7 @@ body,
 html {
   height: 100%;
   width: 100%;
+  font-family: 'Red Hat Text';
   line-height: 1;
   font-size: 14px;
   -ms-text-size-adjust: 100%;
