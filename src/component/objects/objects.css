@@ -1,0 +1,192 @@
+.object {
+    padding: 50px 0 60px;
+  }
+  .object__description {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  @media (max-width: 992px) {
+    .object__description {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+  }
+  .object__sliders {
+    min-width: 0;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 560px;
+    flex: 0 0 560px;
+    margin-right: 30px;
+  }
+  @media (max-width: 1024px) {
+    .object__sliders {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 500px;
+      flex: 0 0 500px;
+      margin-right: 20px;
+    }
+  }
+  @media (max-width: 992px) {
+    .object__sliders {
+      -webkit-box-flex: 0;
+      -ms-flex: none;
+      flex: none;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  }
+  .object__info {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+  }
+  .object__text {
+    margin-bottom: 18px;
+  }
+  .object__buttons {
+    margin: 0 -10px;
+  }
+  .object__btn {
+    margin: 10px;
+  }
+  .object__territory {
+    margin-bottom: 50px;
+  }
+  @media (max-width: 992px) {
+    .object__territory {
+      margin-bottom: 30px;
+    }
+  }
+  .object__map {
+    overflow: hidden;
+    position: relative;
+    padding: 0 0 35%;
+    min-height: 300px;
+  }
+  .object__map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  @media (max-width: 500px) {
+    .object__map {
+      margin: 0 -20px;
+    }
+    .object__wrap {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+  .object__manager {
+    margin-bottom: 50px;
+  }
+  @media (max-width: 992px) {
+    .object__manager {
+      margin-bottom: 30px;
+    }
+  }
+  .object__wrap {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .object__image {
+    overflow: hidden;
+    position: relative;
+    width: 145px;
+    height: 145px;
+    margin-right: 40px;
+  }
+  .object__image img,
+  .slider__image img {
+    left: 0;
+    -o-object-fit: cover;
+    width: 100%;
+    top: 0;
+  }
+  .object__image img {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+  }
+  @media (max-width: 500px) {
+    .object__image {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  .object__contact {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .object__name {
+    font-weight: 300;
+    line-height: 130%;
+    margin-bottom: 12px;
+  }
+  .object__mail {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 130%;
+    margin-bottom: 20px;
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .object__mail span {
+    display: inline-block;
+    padding-left: 12px;
+    font-size: 15px;
+  }
+  .interface__controls,
+  .object__phone {
+    -js-display: flex;
+    -webkit-box-align: center;
+  }
+  .object__phone {
+    font-size: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 130%;
+    margin-bottom: 6px;
+  }
+  .object__phone span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    color: var(--black);
+    display: inline-block;
+    padding-left: 12px;
+  }
+  .object__plan {
+    margin-bottom: 50px;
+  }
+  @media (max-width: 992px) {
+    .object__plan {
+      margin-bottom: 30px;
+    }
+  }

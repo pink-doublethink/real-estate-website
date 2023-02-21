@@ -1,0 +1,86 @@
+videos {
+    padding: 50px 0 0;
+  }
+  .videos__list {
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  .videos__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333%;
+    flex: 0 0 33.333%;
+    padding: 0 15px 45px;
+  }
+  @media (max-width: 992px) {
+    .videos__item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      padding: 0 15px 30px;
+    }
+  }
+  @media (max-width: 767px) {
+    .videos__list {
+      margin: 0 -10px;
+    }
+    .videos__item {
+      padding: 0 10px 30px;
+    }
+  }
+  @media (max-width: 500px) {
+    .gallery__list {
+      -ms-grid-columns: (minmax(200px, 1fr)) [auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .videos__item {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+    }
+  }
+  .videos__image {
+    -webkit-filter: drop-shadow(5px 15px 40px rgba(30, 35, 66, 0.15));
+    filter: drop-shadow(5px 15px 40px rgba(30, 35, 66, 0.15));
+    overflow: hidden;
+    position: relative;
+    padding: 0 0 61%;
+    margin-bottom: 30px;
+  }
+  .videos__image iframe {
+    -webkit-transition: -webkit-transform 0.5s ease 0s;
+    transition: -webkit-transform 0.5s ease 0s;
+    transition: transform 0.5s ease 0s;
+    transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  @media (max-width: 992px) {
+    .videos__image {
+      margin-bottom: 10px;
+    }
+  }
+  .videos__title {
+    display: block;
+    line-height: 130%;
+    text-align: center;
+    color: var(--black);
+    -webkit-transition: color 0.3s ease 0s;
+    transition: color 0.3s ease 0s;
+  }
+  @media (any-hover: hover) {
+    .videos__title:hover {
+      color: var(--orange);
+    }
+  }
