@@ -1,6 +1,6 @@
 import './footer.css'
 
-function Footer() {
+const Footer: React.FC = () => {
   return (
     <footer className="footer footer--index">
       <div className="footer__container container">

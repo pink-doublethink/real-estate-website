@@ -1,6 +1,6 @@
 import Mainscreen from "../component/mainscreen/Mainscreen"
 
-function RentPage() {
+const RentPage: React.FC = () => {
   return (
     <>
         <Mainscreen />

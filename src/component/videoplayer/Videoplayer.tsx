@@ -1,6 +1,6 @@
 import './videoplayer.css'
 
-function Videoplayer() {
+const Videoplayer: React.FC = () => {
   return (
     <div className="videos">
 				<div className="videos__container container">

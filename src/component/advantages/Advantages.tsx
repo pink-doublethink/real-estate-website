@@ -1,6 +1,6 @@
 import './advantages.css'
 
-function Advantages() {
+const Advantages: React.FC = () => {
   return (
     <section className="advantages">
                     <div className="advantages__top-polygon"></div>

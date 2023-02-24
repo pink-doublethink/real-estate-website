@@ -1,6 +1,6 @@
 import './partners.css'
 
-function Partners() {
+const Partners: React.FC = () => {
   return (
     <section className="partners">
                     <div className="partners__container container">

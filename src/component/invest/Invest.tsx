@@ -1,6 +1,6 @@
 import './invest.css'
 
-function Invest() {
+const Invest: React.FC = () => {
   return (
     <section className="invest">
                     <div className="invest__container container">

@@ -5,7 +5,7 @@ import Advantages from '../component/advantages/Advantages';
 import Partners from '../component/partners/Partners';
 import Invest from '../component/invest/Invest';
 
-function HomePage() {
+const HomePage: React.FC = () => {
   return (
     <>
         <Mainscreen />

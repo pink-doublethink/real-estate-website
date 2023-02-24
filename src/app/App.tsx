@@ -2,7 +2,7 @@ import './App.css';
 import Header from '../component/Header/Header';
 import Footer from '../component/Footer/Footer';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="wrapper">
       <Header />

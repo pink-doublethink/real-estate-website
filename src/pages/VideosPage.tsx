@@ -1,6 +1,6 @@
 import Mainscreen from "../component/mainscreen/Mainscreen"
 
-function VideosPage() {
+const VideosPage: React.FC = () => {
   return (
     <>
         <Mainscreen />

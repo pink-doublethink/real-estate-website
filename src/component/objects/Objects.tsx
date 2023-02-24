@@ -1,6 +1,6 @@
 import './objects.css'
 
-function Objects() {
+const Objects: React.FC = () => {
   return (
     <section className="objects">
                     <div className="objects__container container">

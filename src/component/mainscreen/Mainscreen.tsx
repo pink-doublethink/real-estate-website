@@ -1,6 +1,6 @@
 import './mainscreen.css'
 
-function Mainscreen() {
+const Mainscreen: React.FC = () => {
   return (
     <section className="mainscreen">
                     <div className="mainscreen__polygon"></div>

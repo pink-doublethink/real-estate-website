@@ -1,6 +1,6 @@
 import './short.css'
 
-function Short() {
+const Short: React.FC = () => {
   return (
     <section className="short">
                     <div className="short__container container">

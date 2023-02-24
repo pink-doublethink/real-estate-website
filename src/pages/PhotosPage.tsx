@@ -1,6 +1,6 @@
 import Mainscreen from "../component/mainscreen/Mainscreen"
 
-function PhotosPage() {
+const PhotosPage: React.FC = () => {
   return (
     <>
         <Mainscreen />

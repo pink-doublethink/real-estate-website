@@ -1,6 +1,6 @@
 import './header.css'
 
-function Header() {
+const Header: React.FC = () => {
   return (
     <header className="header lock-padding">
       <div className="header__container container">

@@ -1,6 +1,6 @@
 import Mainscreen from "../component/mainscreen/Mainscreen"
 
-function ObjectPage() {
+const ObjectPage: React.FC = () => {
   return (
     <>
         <Mainscreen />

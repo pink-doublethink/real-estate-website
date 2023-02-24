@@ -1,6 +1,6 @@
 import Mainscreen from "../component/mainscreen/Mainscreen"
 
-function ContactPage() {
+const ContactPage: React.FC = () => {
   return (
     <>
         <Mainscreen />

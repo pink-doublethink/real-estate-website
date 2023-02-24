@@ -1,6 +1,6 @@
 import Mainscreen from "../component/mainscreen/Mainscreen"
 
-function GalleryPage() {
+const GalleryPage: React.FC = () => {
   return (
     <>
         <Mainscreen />
