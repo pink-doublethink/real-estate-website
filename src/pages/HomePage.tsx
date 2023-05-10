@@ -1,19 +1,22 @@
-import Mainscreen from "../component/mainscreen/Mainscreen"
-import Short from '../component/short/Short';
-import Objects from '../component/objects/Objects';
-import Advantages from '../component/advantages/Advantages';
-import Partners from '../component/partners/Partners';
-import Invest from '../component/invest/Invest';
+import { Helmet } from "react-helmet";
+import { Mainscreen, Short, Objects, Advantages, Partners, Invest } from '../component'
 
 const HomePage: React.FC = () => {
   return (
     <>
-        <Mainscreen />
-        <Short />
-        <Objects />
-        <Advantages />
-        <Partners />
-        <Invest />
+        <Helmet>
+        <title>Алексей Овсянников - фронтенд разработчик из Москвы</title>
+        <meta
+          name="description"
+          content="Фронтенд разработчик с опытом работы на React / Next.js / TypeScript. Работая над проектами я заинтересован создавать Продукты, расширяющие возможности людей."
+        />
+      </Helmet>
+      <Mainscreen />
+      <Short />
+      <Objects />
+      <Advantages />
+      <Partners />
+      <Invest />
     </>
   )
 }

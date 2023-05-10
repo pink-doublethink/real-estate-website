@@ -1,9 +1,17 @@
-import Mainscreen from "../component/mainscreen/Mainscreen"
+import { Helmet } from "react-helmet";
+import { Mainscreen } from '../component'
 
 const RentPage: React.FC = () => {
   return (
     <>
-        <Mainscreen />
+      <Helmet>
+        <title>Рента</title>
+        <meta
+          name="description"
+          content="Страница с рентой"
+        />
+      </Helmet>
+      <Mainscreen />
     </>
   )
 }
