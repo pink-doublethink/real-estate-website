@@ -1,4 +1,5 @@
 import './header.css'
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   return (
@@ -19,9 +20,9 @@ const Header: React.FC = () => {
               <ul className="menu__list">
                 <li>
                   {' '}
-                  <a className="menu__link" href="www.google.com">
+                  <Link to="/about" className="menu__link">
                     О компании
-                  </a>
+                  </Link>
                   <span className="menu__arrow icons-arrow">.</span>
                   <ul className="menu__sub-list">
                     <li>
@@ -64,9 +65,9 @@ const Header: React.FC = () => {
                 </li>
                 <li>
                   {' '}
-                  <a className="menu__link" href="www.google.com">
+                  <Link to="/news" className="menu__link">
                     Новости
-                  </a>
+                  </Link>
                   <span className="menu__arrow icons-arrow">.</span>
                   <ul className="menu__sub-list">
                     <li>
@@ -97,15 +98,15 @@ const Header: React.FC = () => {
                 </li>
                 <li>
                   {' '}
-                  <a className="menu__link" href="www.google.com">
+                  <Link to="/rent" className="menu__link">
                     Арендаторам
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   {' '}
-                  <a className="menu__link" href="www.google.com">
+                  <Link to="/contacts" className="menu__link">
                     Контакты
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <a className="menu__request btn btn--blue popup-link" href="www.google.com">

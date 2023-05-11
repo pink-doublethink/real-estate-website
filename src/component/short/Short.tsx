@@ -1,4 +1,5 @@
 import './short.css'
+import CC from "../../assets/images/watermark.svg"
 
 const Short: React.FC = () => {
   return (
@@ -46,7 +47,7 @@ const Short: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="short__watermark"> <img src="template/images/watermark.svg" alt="" /></div>
+                    <div className="short__watermark"> <img src={CC} alt="" /></div>
                 </section>
   )
 }

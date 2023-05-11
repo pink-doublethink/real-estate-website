@@ -1,10 +1,11 @@
-import './App.css';
+import './app.css';
 import Header from '../component/Header/Header';
 import Footer from '../component/Footer/Footer';
 import { lazy } from "react";
 import {
-  createBrowserRouter,
-  RouterProvider
+  BrowserRouter as Router, 
+  Route, 
+  Routes
 } from "react-router-dom"
 
 
@@ -18,55 +19,28 @@ const PhotosPage  = lazy(() => import('../pages/PhotosPage'));
 const RentPage  = lazy(() => import('../pages/RentPage')); 
 const VideosPage  = lazy(() => import('../pages/VideosPage')); 
 
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomePage />
-  },
-  {
-    path: "/article",
-    element: <ArticlePage />
-  },
-  {
-    path: "/contact",
-    element: <ContactPage />
-  },
-  {
-    path: "/gallery",
-    element: <GalleryPage />
-  },
-  {
-    path: "/news",
-    element: <NewsPage />
-  },
-  {
-    path: "/object",
-    element: <ObjectPage />
-  },
-  {
-    path: "/photos",
-    element: <PhotosPage />
-  },
-  {
-    path: "/rent",
-    element: <RentPage />
-  },
-  {
-    path: "/videos",
-    element: <VideosPage />
-  },
-])
-
 const App: React.FC = () => {
   return (
-    <div className="wrapper">
-      <Header />
-      <main className="main">
-        <RouterProvider router={router} />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="wrapper">
+        <Header />
+        <main className="main">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/article" element={<ArticlePage />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/news" element={<NewsPage />} />
+            <Route path="/object" element={<ObjectPage />} />
+            <Route path="/photos" element={<PhotosPage />} />
+            <Route path="/rent" element={<RentPage />} />
+            <Route path="/videos" element={<VideosPage />} />
+            <Route path="*" element={<HomePage />}/>
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

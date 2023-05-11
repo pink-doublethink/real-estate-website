@@ -1,4 +1,5 @@
 import './mainscreen.css'
+import { Link } from 'react-router-dom';
 
 const Mainscreen: React.FC = () => {
   return (
@@ -8,8 +9,8 @@ const Mainscreen: React.FC = () => {
                         <div className="mainscreen__body">
                             <div className="mainscreen__info">
                                 <h1 className="mainscreen__title title">Коммерческая недвижимость в Челябинске</h1>
-                                <div className="mainscreen__text">от ведущего девелопера</div><a className="mainscreen__btn btn btn--orange"
-                                    href="object.html">подобрать помещение</a>
+                                <div className="mainscreen__text">от ведущего девелопера</div><Link to="/objects" className="mainscreen__btn btn btn--orange"
+                                    >подобрать помещение</Link>
                             </div>
                             <div className="mainscreen__decor"> <img src="template/images/letter.svg" alt="" /></div>
                         </div>
