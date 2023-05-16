@@ -5,10 +5,18 @@ const RentPage: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Рента</title>
+        <title>Поиск объектов — ООО "Проспект"</title>
         <meta
           name="description"
-          content="Страница с рентой"
+          content="Воспользуйтесь нашей интуитивно понятной функцией поиска, чтобы просмотреть обширную базу данных завершенных и текущих проектов, включая жилые, коммерческие и инфраструктурные проекты."
+        />
+        <meta 
+          name="viewport" 
+          content="width=device-width, initial-scale=1.0" 
+        />
+        <meta 
+          name="theme-color" 
+          content="#00A0DC" 
         />
       </Helmet>
       <Mainscreen />
