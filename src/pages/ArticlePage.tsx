@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import { Mainscreen, Short } from '../component'
+import { Mainscreen, ArticleBar, ArticleContent } from '../component'
 
 const ArticlePage: React.FC = () => {
   return (
@@ -20,7 +20,8 @@ const ArticlePage: React.FC = () => {
         />
       </Helmet>
       <Mainscreen />
-      <Short />
+      <ArticleBar />
+      <ArticleContent />
     </>
   )
 }

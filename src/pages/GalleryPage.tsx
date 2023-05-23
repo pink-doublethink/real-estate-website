@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import { Mainscreen, Short } from '../component'
+import { Mainscreen, GalleryBar, GalleryContent } from '../component'
 
 const GalleryPage: React.FC = () => {
   return (
@@ -20,7 +20,8 @@ const GalleryPage: React.FC = () => {
         />
       </Helmet>
       <Mainscreen />
-      <Short />
+      <GalleryBar />
+      <GalleryContent />
     </>
   )
 }

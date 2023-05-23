@@ -20,22 +20,31 @@ const RentPage  = lazy(() => import('../pages/RentPage'));
 const VideosPage  = lazy(() => import('../pages/VideosPage')); 
 
 const App: React.FC = () => {
+  const Article  = <ArticlePage /> 
+  const Contact  = <ContactPage /> ;
+  const Gallery  = <GalleryPage /> ;
+  const Home = <HomePage /> ;
+  const News  = <NewsPage /> ;
+  const Object  = <ObjectPage /> ;
+  const Photos  = <PhotosPage /> ;
+  const Rent  = <RentPage /> ;
+  const Videos  = <VideosPage /> ; 
+
   return (
     <Router>
       <div className="wrapper">
         <Header />
         <main className="main">
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/article" element={<ArticlePage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/gallery" element={<GalleryPage />} />
-            <Route path="/news" element={<NewsPage />} />
-            <Route path="/object" element={<ObjectPage />} />
-            <Route path="/photos" element={<PhotosPage />} />
-            <Route path="/rent" element={<RentPage />} />
-            <Route path="/videos" element={<VideosPage />} />
-            <Route path="*" element={<HomePage />}/>
+            <Route path="/article" element={Article} />
+            <Route path="/contact" element={Contact} />
+            <Route path="/gallery" element={Gallery} />
+            <Route path="/news" element={News} />
+            <Route path="/object" element={Object} />
+            <Route path="/photos" element={Photos} />
+            <Route path="/rent" element={Rent} />
+            <Route path="/videos" element={Videos} />
+            <Route path="/" element={Home} />
           </Routes>
         </main>
         <Footer />

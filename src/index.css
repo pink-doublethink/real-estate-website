@@ -37,7 +37,7 @@
   font-style: normal;
   font-display: fallback;
 }
-
+/* 
 button,
 hr,
 input {
@@ -365,4 +365,4 @@ body::-webkit-scrollbar-thumb {
   body::-webkit-scrollbar-thumb:hover {
     background: #c05245;
   }
-}
+} */

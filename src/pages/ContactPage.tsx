@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import { Mainscreen, Short } from '../component'
+import { Mainscreen, ContactBar, ContactContent } from '../component'
 
 const ContactPage: React.FC = () => {
   return (
@@ -20,7 +20,8 @@ const ContactPage: React.FC = () => {
         />
       </Helmet>
       <Mainscreen />
-      <Short />
+      <ContactBar />
+      <ContactContent />
     </>
   )
 }

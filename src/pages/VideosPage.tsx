@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import { Mainscreen, Short } from '../component'
+import { Mainscreen, VideosBar, VideosContent } from '../component'
 
 const VideosPage: React.FC = () => {
   return (
@@ -20,7 +20,8 @@ const VideosPage: React.FC = () => {
         />
       </Helmet>
       <Mainscreen />
-      <Short />
+      <VideosBar />
+      <VideosContent />
     </>
   )
 }
