@@ -1,4 +1,5 @@
 import './rentContent.css'
+import man_3 from '../../assets/images/man03.webp'
 
 const RentContent: React.FC = () => {
   return (
@@ -827,7 +828,7 @@ const RentContent: React.FC = () => {
                 <div className="item-tab__unit">
                     <div className="item-tab__image">
                     {" "}
-                    <img src="template/images/man03.webp" alt="" />
+                    <img src={man_3} alt="" />
                     </div>
                     <div className="item-tab__info">
                     <div className="item-tab__head">

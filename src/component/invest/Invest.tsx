@@ -1,11 +1,12 @@
 import './invest.css'
+import invest_1 from '../../assets/images/man.webp'
 
 const Invest: React.FC = () => {
   return (
     <section className="invest">
                     <div className="invest__container container">
                         <div className="invest__body">
-                            <div className="invest__image"> <img src="template/images/man.webp" alt="" /></div>
+                            <div className="invest__image"> <img src={invest_1} alt="" /></div>
                             <div className="invest__info">
                                 <div className="invest__caption">У Вас есть инвестиционный или бизнес-проект, и вы нуждаетесь в надежном
                                     партнере?</div>

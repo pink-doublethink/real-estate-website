@@ -1,4 +1,8 @@
 import './contactContent.css'
+import Obj1 from '../../assets/images/man03.webp'
+import Obj2 from '../../assets/images/man02.webp'
+import Obj3 from '../../assets/images/woman.webp'
+import Obj4 from '../../assets/images/man01.webp'
 
 const ContactContent: React.FC = () => {
   return (
@@ -55,7 +59,7 @@ const ContactContent: React.FC = () => {
                 <li className="team__item">
                     <div className="team__image">
                     {" "}
-                    <img src="template/images/man03.webp" alt="" />
+                    <img src={Obj1} alt="" />
                     </div>
                     <div className="team__body">
                     <div className="team__department">Отдел аренды</div>
@@ -80,7 +84,7 @@ const ContactContent: React.FC = () => {
                 <li className="team__item">
                     <div className="team__image">
                     {" "}
-                    <img src="template/images/man02.webp" alt="" />
+                    <img src={Obj2} alt="" />
                     </div>
                     <div className="team__body">
                     <div className="team__department">Отдел аренды</div>
@@ -108,7 +112,7 @@ const ContactContent: React.FC = () => {
                 <li className="team__item">
                     <div className="team__image">
                     {" "}
-                    <img src="template/images/woman.webp" alt="" />
+                    <img src={Obj3} alt="" />
                     </div>
                     <div className="team__body">
                     <div className="team__department">Отдел аренды</div>
@@ -130,7 +134,7 @@ const ContactContent: React.FC = () => {
                 <li className="team__item">
                     <div className="team__image">
                     {" "}
-                    <img src="template/images/man01.webp" alt="" />
+                    <img src={Obj4} alt="" />
                     </div>
                     <div className="team__body">
                     <div className="team__department">Отдел аренды</div>

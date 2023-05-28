@@ -1,4 +1,5 @@
 import './photosContent.css'
+import obj_1 from '../../assets/images/obj01.webp'
 
 const PhotosContent: React.FC = () =>  {
   return (
@@ -9,7 +10,7 @@ const PhotosContent: React.FC = () =>  {
                 <ul className="photos__list">
                 <li className="photos__item">
                     <div className="photos__image">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={obj_1} alt="" />
                     <div className="photos__cover">
                         {" "}
                         <a
@@ -26,7 +27,7 @@ const PhotosContent: React.FC = () =>  {
                 </li>
                 <li className="photos__item">
                     <div className="photos__image">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={obj_1} alt="" />
                     <div className="photos__cover">
                         {" "}
                         <a
@@ -43,7 +44,7 @@ const PhotosContent: React.FC = () =>  {
                 </li>
                 <li className="photos__item">
                     <div className="photos__image">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={obj_1} alt="" />
                     <div className="photos__cover">
                         {" "}
                         <a
@@ -60,7 +61,7 @@ const PhotosContent: React.FC = () =>  {
                 </li>
                 <li className="photos__item">
                     <div className="photos__image">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={obj_1} alt="" />
                     <div className="photos__cover">
                         {" "}
                         <a
@@ -77,7 +78,7 @@ const PhotosContent: React.FC = () =>  {
                 </li>
                 <li className="photos__item">
                     <div className="photos__image">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={obj_1} alt="" />
                     <div className="photos__cover">
                         {" "}
                         <a
@@ -94,7 +95,7 @@ const PhotosContent: React.FC = () =>  {
                 </li>
                 <li className="photos__item">
                     <div className="photos__image">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={obj_1} alt="" />
                     <div className="photos__cover">
                         {" "}
                         <a

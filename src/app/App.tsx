@@ -1,7 +1,15 @@
 import './app.css';
 import Header from '../component/Header/Header';
 import Footer from '../component/Footer/Footer';
-import { lazy } from "react";
+import ArticlePage from '../pages/ArticlePage';
+import ContactPage from '../pages/ContactPage';
+import GalleryPage from '../pages/GalleryPage';
+import HomePage from '../pages/HomePage';
+import NewsPage from '../pages/NewsPage';
+import ObjectPage from '../pages/ObjectPage';
+import PhotosPage from '../pages/PhotosPage';
+import RentPage from '../pages/RentPage';
+import VideosPage from '../pages/VideosPage';
 import {
   BrowserRouter as Router, 
   Route, 
@@ -9,42 +17,34 @@ import {
 } from "react-router-dom"
 
 
-const ArticlePage  = lazy(() => import('../pages/ArticlePage')); 
-const ContactPage  = lazy(() => import('../pages/ContactPage')); 
-const GalleryPage  = lazy(() => import('../pages/GalleryPage')); 
-const HomePage = lazy(() => import('../pages/HomePage')); 
-const NewsPage  = lazy(() => import('../pages/NewsPage')); 
-const ObjectPage  = lazy(() => import('../pages/ObjectPage')); 
-const PhotosPage  = lazy(() => import('../pages/PhotosPage')); 
-const RentPage  = lazy(() => import('../pages/RentPage')); 
-const VideosPage  = lazy(() => import('../pages/VideosPage')); 
+
+// const ArticlePage  = lazy(() => import('../pages/ArticlePage')); 
+// const ContactPage  = lazy(() => import('../pages/ContactPage')); 
+// const GalleryPage  = lazy(() => import('../pages/GalleryPage')); 
+// const HomePage = lazy(() => import('../pages/HomePage')); 
+// const NewsPage  = lazy(() => import('../pages/NewsPage')); 
+// const ObjectPage  = lazy(() => import('../pages/ObjectPage')); 
+// const PhotosPage  = lazy(() => import('../pages/PhotosPage')); 
+// const RentPage  = lazy(() => import('../pages/RentPage')); 
+// const VideosPage  = lazy(() => import('../pages/VideosPage')); 
 
 const App: React.FC = () => {
-  const Article  = <ArticlePage /> 
-  const Contact  = <ContactPage /> ;
-  const Gallery  = <GalleryPage /> ;
-  const Home = <HomePage /> ;
-  const News  = <NewsPage /> ;
-  const Object  = <ObjectPage /> ;
-  const Photos  = <PhotosPage /> ;
-  const Rent  = <RentPage /> ;
-  const Videos  = <VideosPage /> ; 
-
   return (
     <Router>
       <div className="wrapper">
         <Header />
         <main className="main">
           <Routes>
-            <Route path="/article" element={Article} />
-            <Route path="/contact" element={Contact} />
-            <Route path="/gallery" element={Gallery} />
-            <Route path="/news" element={News} />
-            <Route path="/object" element={Object} />
-            <Route path="/photos" element={Photos} />
-            <Route path="/rent" element={Rent} />
-            <Route path="/videos" element={Videos} />
-            <Route path="/" element={Home} />
+            <Route path="/about" element={<ArticlePage />} />
+            <Route path="/article" element={<ArticlePage />} />
+            <Route path="/contacts" element={<ContactPage />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/news" element={<NewsPage />} />
+            <Route path="/object" element={<ObjectPage />} />
+            <Route path="/photos" element={<PhotosPage />} />
+            <Route path="/rent" element={<RentPage />} />
+            <Route path="/videos" element={<VideosPage />} />
+            <Route path="/" element={<HomePage />} />
           </Routes>
         </main>
         <Footer />

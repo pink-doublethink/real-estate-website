@@ -1,4 +1,5 @@
 import './partners.css'
+import p_1 from '../../assets/images/p01.webp'
 
 const Partners: React.FC = () => {
   return (
@@ -9,30 +10,30 @@ const Partners: React.FC = () => {
                             <div className="partners__text">С нами работают самые крупные арендаторы и ритейлы Челябинска а также ведущие
                                 банки России</div>
                             <div className="partners__slider">
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
-                                <div className="partners__image"> <img src="template/images/p01.webp" alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
+                                <div className="partners__image"> <img src={p_1} alt="" /></div>
                             </div>
                         </div>
                     </div>

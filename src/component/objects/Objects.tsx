@@ -1,4 +1,7 @@
 import './objects.css'
+import obj_1 from '../../assets/images/obj01.webp'
+import obj_2 from '../../assets/images/obj02.webp'
+import obj_3 from '../../assets/images/obj03.webp'
 
 const Objects: React.FC = () => {
   return (
@@ -13,7 +16,7 @@ const Objects: React.FC = () => {
                                 <div className="swiper">
                                     <ul className="objects__list swiper-wrapper">
                                         <li className="objects__item swiper-slide"> <a className="objects__image" href="#"><img
-                                                    src="template/images/obj01.webp" alt="" /></a>
+                                                    src={obj_1} alt="" /></a>
                                             <div className="objects__address"> <span className="icons-small-pin"></span>Краснопольский проспект, 17Б
                                             </div><a className="objects__caption" href="#">ТК «Проспект»</a>
                                             <div className="objects__text">Расположение комплекса на одном из главных перекрестков района Парковый
@@ -21,14 +24,14 @@ const Objects: React.FC = () => {
                                             </div>
                                         </li>
                                         <li className="objects__item swiper-slide"> <a className="objects__image" href="#"><img
-                                                    src="template/images/obj02.webp" alt="" /></a>
+                                                    src={obj_2} alt="" /></a>
                                             <div className="objects__address"> <span className="icons-small-pin"></span>Комсомольский пр., 50</div><a
                                                 className="objects__caption" href="#">ТК «Магнит»</a>
                                             <div className="objects__text">Торговый комплекс выгодно расположен на первой линии, окружен плотной
                                                 жилой застройкой, имеется парковка. </div>
                                         </li>
                                         <li className="objects__item swiper-slide"> <a className="objects__image" href="#"><img
-                                                    src="template/images/obj03.webp" alt="" /></a>
+                                                    src={obj_3} alt="" /></a>
                                             <div className="objects__address"> <span className="icons-small-pin"></span>Комсомольский пр-т, 74</div><a
                                                 className="objects__caption" href="#">ТК «Проспект»</a>
                                             <div className="objects__text">Комплекс находится на первой линии и окружен плотной жилой застройкой. В
@@ -36,7 +39,7 @@ const Objects: React.FC = () => {
                                                 поток.</div>
                                         </li>
                                         <li className="objects__item swiper-slide"> <a className="objects__image" href="#"><img
-                                                    src="template/images/obj01.webp" alt="" /></a>
+                                                    src={obj_1} alt="" /></a>
                                             <div className="objects__address"> <span className="icons-small-pin"></span>Краснопольский проспект, 17Б
                                             </div><a className="objects__caption" href="#">ТК «Проспект»</a>
                                             <div className="objects__text">Расположение комплекса на одном из главных перекрестков района Парковый
@@ -44,14 +47,14 @@ const Objects: React.FC = () => {
                                             </div>
                                         </li>
                                         <li className="objects__item swiper-slide"> <a className="objects__image" href="#"><img
-                                                    src="template/images/obj02.webp" alt="" /></a>
+                                                    src={obj_2} alt="" /></a>
                                             <div className="objects__address"> <span className="icons-small-pin"></span>Комсомольский пр., 50</div><a
                                                 className="objects__caption" href="#">ТК «Магнит»</a>
                                             <div className="objects__text">Торговый комплекс выгодно расположен на первой линии, окружен плотной
                                                 жилой застройкой, имеется парковка. </div>
                                         </li>
                                         <li className="objects__item swiper-slide"> <a className="objects__image" href="#"><img
-                                                    src="template/images/obj03.webp" alt="" /></a>
+                                                    src={obj_3} alt="" /></a>
                                             <div className="objects__address"> <span className="icons-small-pin"></span>Комсомольский пр-т, 74</div><a
                                                 className="objects__caption" href="#">ТК «Проспект»</a>
                                             <div className="objects__text">Комплекс находится на первой линии и окружен плотной жилой застройкой. В

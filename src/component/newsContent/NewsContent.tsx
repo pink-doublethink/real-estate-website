@@ -1,4 +1,5 @@
 import './newsContent.css'
+import News_1 from '../../assets/images/obj01.webp'
 
 const NewsContent: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ const NewsContent: React.FC = () => {
                 <li className="news__item">
                     {" "}
                     <a className="news__image" href="article.html">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={News_1} alt="" />
                     </a>
                     <div className="news__time">
                     <div className="news__icon icons-calendar" />
@@ -35,7 +36,7 @@ const NewsContent: React.FC = () => {
                 <li className="news__item">
                     {" "}
                     <a className="news__image" href="article.html">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={News_1} alt="" />
                     </a>
                     <div className="news__time">
                     <div className="news__icon icons-calendar" />
@@ -58,7 +59,7 @@ const NewsContent: React.FC = () => {
                 <li className="news__item">
                     {" "}
                     <a className="news__image" href="article.html">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={News_1} alt="" />
                     </a>
                     <div className="news__time">
                     <div className="news__icon icons-calendar" />
@@ -81,7 +82,7 @@ const NewsContent: React.FC = () => {
                 <li className="news__item">
                     {" "}
                     <a className="news__image" href="article.html">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={News_1} alt="" />
                     </a>
                     <div className="news__time">
                     <div className="news__icon icons-calendar" />
@@ -104,7 +105,7 @@ const NewsContent: React.FC = () => {
                 <li className="news__item">
                     {" "}
                     <a className="news__image" href="article.html">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={News_1} alt="" />
                     </a>
                     <div className="news__time">
                     <div className="news__icon icons-calendar" />
@@ -127,7 +128,7 @@ const NewsContent: React.FC = () => {
                 <li className="news__item">
                     {" "}
                     <a className="news__image" href="article.html">
-                    <img src="template/images/obj01.webp" alt="" />
+                    <img src={News_1} alt="" />
                     </a>
                     <div className="news__time">
                     <div className="news__icon icons-calendar" />

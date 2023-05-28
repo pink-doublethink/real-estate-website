@@ -1,4 +1,6 @@
 import './footer.css'
+import Logo from '../../assets/images/logo.svg'
+import TLogo from '../../assets/images/logo-text.svg'
 
 const Footer: React.FC = () => {
   return (
@@ -9,10 +11,10 @@ const Footer: React.FC = () => {
             {' '}
             <a className="footer__logo logo" href="#www.google.com">
               <div className="logo__image">
-                <img src="template/images/logo.svg" alt="" />
+                <img src={Logo} alt="" />
               </div>
               <div className="logo__text">
-                <img src="template/images/logo-text.svg" alt="" />
+                <img src={TLogo} alt="" />
               </div>
             </a>
             <div className="footer__paragraphs">

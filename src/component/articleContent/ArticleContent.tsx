@@ -1,4 +1,5 @@
 import './articleContent.css'
+import Obj from '../../assets/images/obj01.webp'
 
 const ArticleContent: React.FC = () =>  {
   return (
@@ -7,7 +8,7 @@ const ArticleContent: React.FC = () =>  {
             <div className="article__body">
             <div className="article__content content">
                 <h3>Уважаемые друзья! Мы рады видеть Вас на сайте нашей компании</h3>
-                <img src="template/images/obj01.webp" alt="" />
+                <img src={Obj} alt="" />
                 <p>
                 Теперь возможно подробно ознакомиться с объектами ООО «Проспект»,
                 изучить планировки, посмотреть свободные площади, ознакомиться с

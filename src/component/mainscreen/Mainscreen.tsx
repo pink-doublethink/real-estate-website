@@ -1,5 +1,6 @@
 import './mainscreen.css'
 import { Link } from 'react-router-dom';
+import img from '../../assets/images/letter.svg'
 
 const Mainscreen: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ const Mainscreen: React.FC = () => {
                                 <div className="mainscreen__text">от ведущего девелопера</div><Link to="/objects" className="mainscreen__btn btn btn--orange"
                                     >подобрать помещение</Link>
                             </div>
-                            <div className="mainscreen__decor"> <img src="template/images/letter.svg" alt="" /></div>
+                            <div className="mainscreen__decor"> <img src={img} alt="" /></div>
                         </div>
                     </div>
                 </section>

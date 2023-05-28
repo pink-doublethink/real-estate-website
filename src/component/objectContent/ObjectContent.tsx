@@ -1,4 +1,15 @@
 import './objectContent.css'
+import slide_1 from '../../assets/images/sld01.webp'
+import slide_2 from '../../assets/images/sld02.webp'
+import slide_3 from '../../assets/images/sld03.webp'
+import slide_4 from '../../assets/images/sld04.webp'
+import slide_5 from '../../assets/images/sld05.webp'
+import slide_6 from '../../assets/images/sld06.webp'
+import man_3 from '../../assets/images/man03.webp'
+import plan from '../../assets/images/plan.webp'
+import obj_1 from '../../assets/images/obj01.webp'
+import obj_2 from '../../assets/images/obj02.webp'
+import obj_3 from '../../assets/images/obj03.webp'
 
 const ObjectContent: React.FC = () =>  {
   return (
@@ -13,7 +24,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld01.webp"
+                            data-src={slide_1}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -23,7 +34,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld02.webp"
+                            data-src={slide_2}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -33,7 +44,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld03.webp"
+                            data-src={slide_3}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -43,7 +54,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld04.webp"
+                            data-src={slide_4}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -53,7 +64,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld05.webp"
+                            data-src={slide_5}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -63,7 +74,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld06.webp"
+                            data-src={slide_6}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -73,7 +84,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld01.webp"
+                            data-src={slide_1}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -83,7 +94,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld02.webp"
+                            data-src={slide_2}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -93,7 +104,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld03.webp"
+                            data-src={slide_3}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -103,7 +114,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld04.webp"
+                            data-src={slide_4}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -113,7 +124,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld05.webp"
+                            data-src={slide_5}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -123,7 +134,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld06.webp"
+                            data-src={slide_6}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -137,7 +148,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld01.webp"
+                            data-src={slide_1}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -147,7 +158,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld02.webp"
+                            data-src={slide_2}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -157,7 +168,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld03.webp"
+                            data-src={slide_3}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -167,7 +178,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld04.webp"
+                            data-src={slide_4}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -177,7 +188,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld05.webp"
+                            data-src={slide_5}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -187,7 +198,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld06.webp"
+                            data-src={slide_6}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -197,7 +208,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld01.webp"
+                            data-src={slide_1}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -207,7 +218,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld02.webp"
+                            data-src={slide_2}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -217,7 +228,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld03.webp"
+                            data-src={slide_3}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -227,7 +238,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld04.webp"
+                            data-src={slide_4}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -237,7 +248,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld05.webp"
+                            data-src={slide_5}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -247,7 +258,7 @@ const ObjectContent: React.FC = () =>  {
                         <div className="slider-small__image">
                         <img
                             className="swiper-lazy"
-                            data-src="template/images/sld06.webp"
+                            data-src={slide_6}
                             alt=""
                         />
                         <div className="swiper-lazy-preloader" />
@@ -310,7 +321,7 @@ const ObjectContent: React.FC = () =>  {
                 <div className="object__wrap">
                 <div className="object__image">
                     {" "}
-                    <img src="template/images/man03.webp" alt="" />
+                    <img src={man_3} alt="" />
                 </div>
                 <div className="object__contact">
                     <div className="object__name">Антон Дудкин</div>
@@ -341,7 +352,7 @@ const ObjectContent: React.FC = () =>  {
                 </div>
                 <div className="interface__image">
                     {" "}
-                    <img src="template/images/plan.webp" alt="" />
+                    <img src={plan} alt="" />
                 </div>
                 <div className="interface__legend">
                     <div className="interface__marker interface__marker--yellow"> </div>
@@ -362,7 +373,7 @@ const ObjectContent: React.FC = () =>  {
                         <li className="objects__item swiper-slide">
                         {" "}
                         <a className="objects__image" href="#">
-                            <img src="template/images/obj01.webp" alt="" />
+                            <img src={obj_1} alt="" />
                         </a>
                         <div className="objects__address">
                             {" "}
@@ -381,7 +392,7 @@ const ObjectContent: React.FC = () =>  {
                         <li className="objects__item swiper-slide">
                         {" "}
                         <a className="objects__image" href="#">
-                            <img src="template/images/obj02.webp" alt="" />
+                            <img src={obj_2} alt="" />
                         </a>
                         <div className="objects__address">
                             {" "}
@@ -399,7 +410,7 @@ const ObjectContent: React.FC = () =>  {
                         <li className="objects__item swiper-slide">
                         {" "}
                         <a className="objects__image" href="#">
-                            <img src="template/images/obj03.webp" alt="" />
+                            <img src={obj_3} alt="" />
                         </a>
                         <div className="objects__address">
                             {" "}
@@ -419,7 +430,7 @@ const ObjectContent: React.FC = () =>  {
                         <li className="objects__item swiper-slide">
                         {" "}
                         <a className="objects__image" href="#">
-                            <img src="template/images/obj01.webp" alt="" />
+                            <img src={obj_1} alt="" />
                         </a>
                         <div className="objects__address">
                             {" "}
@@ -438,7 +449,7 @@ const ObjectContent: React.FC = () =>  {
                         <li className="objects__item swiper-slide">
                         {" "}
                         <a className="objects__image" href="#">
-                            <img src="template/images/obj02.webp" alt="" />
+                            <img src={obj_2} alt="" />
                         </a>
                         <div className="objects__address">
                             {" "}
@@ -456,7 +467,7 @@ const ObjectContent: React.FC = () =>  {
                         <li className="objects__item swiper-slide">
                         {" "}
                         <a className="objects__image" href="#">
-                            <img src="template/images/obj03.webp" alt="" />
+                            <img src={obj_3} alt="" />
                         </a>
                         <div className="objects__address">
                             {" "}
