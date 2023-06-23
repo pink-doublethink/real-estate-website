@@ -937,7 +937,7 @@ body::-webkit-scrollbar-thumb {
 }
 }.mainscreen {
     position: relative;
-    background: linear-gradient(103.98deg, rgba(255, 255, 255, 0) 0, rgba(0, 160, 220, .3) 58.81%), url(../images/mainscreen-bg.webp) center/cover no-repeat;
+    background: linear-gradient(103.98deg, rgba(255, 255, 255, 0) 0, rgba(0, 160, 220, .3) 58.81%), url(../assets/images/mainscreen-bg.webp) center/cover no-repeat;
 }
 .mainscreen__polygon {
     position: absolute;
@@ -1493,7 +1493,7 @@ body::-webkit-scrollbar-thumb {
     top: 0;
     left: 0;
     width: 24px;
-    background: url(../images/tick.svg) center/16px auto no-repeat var(--cyan);
+    background: url(../assets/images/tick.svg) center/16px auto no-repeat var(--cyan);
     opacity: 0;
     transition: all .3s ease 0s;
 }
@@ -1571,7 +1571,7 @@ body::-webkit-scrollbar-thumb {
 }
 }@media (max-width:992px) {
     .short {
-    background: url(../images/watermark.svg) 50% 70%/contain no-repeat;
+    background: url(../assets/images/watermark.svg) 50% 70%/contain no-repeat;
 }
 }@media (max-width:500px) {
     .footer__row {
@@ -1728,16 +1728,16 @@ body::-webkit-scrollbar-thumb {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%}
 }.infographic__item:nth-of-type(1) {
-    background: url(../images/building.svg) 15px 5px no-repeat;
+    background: url(../assets/images/building.svg) 15px 5px no-repeat;
 }
 .infographic__item:nth-of-type(2) {
-    background: url(../images/surface.svg) 15px 5px no-repeat;
+    background: url(../assets/images/surface.svg) 15px 5px no-repeat;
 }
 .infographic__item:nth-of-type(3) {
-    background: url(../images/badge.svg) 15px 5px no-repeat;
+    background: url(../assets/images/badge.svg) 15px 5px no-repeat;
 }
 .infographic__item:nth-of-type(4) {
-    background: url(../images/like.svg) 15px 5px no-repeat;
+    background: url(../assets/images/like.svg) 15px 5px no-repeat;
 }
 .infographic__number {
     font-weight: 500;
@@ -1984,7 +1984,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 13px;
     line-height: 170%}
 .advantages {
-    background: linear-gradient(103.98deg, #2e3350 0, rgba(0, 160, 220, .75) 58.81%, rgba(0, 160, 220, .72) 97.65%), url(../images/adv-bg.webp) center/cover no-repeat;
+    background: linear-gradient(103.98deg, #2e3350 0, rgba(0, 160, 220, .75) 58.81%, rgba(0, 160, 220, .72) 97.65%), url(../assets/images/adv-bg.webp) center/cover no-repeat;
     padding: 200px 0;
     color: #fff;
     position: relative;
@@ -2230,7 +2230,7 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 40px;
 }
 .bar {
-    background: linear-gradient(103.98deg, #fff 0, rgba(0, 160, 220, .3) 58.81%, rgba(0, 160, 220, 0) 97.65%), url(../images/bar-bg.webp) center/cover no-repeat;
+    background: linear-gradient(103.98deg, #fff 0, rgba(0, 160, 220, .3) 58.81%, rgba(0, 160, 220, 0) 97.65%), url(../assets/images/bar-bg.webp) center/cover no-repeat;
     padding: 155px 0 52px;
 }
 @media (max-width:992px) {
